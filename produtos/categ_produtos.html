@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WT Nossos Produtos</title>
+    <link rel="stylesheet" href="../produtos/produtos.css">
+    <link rel="shortcut icon" href="../imagens/logowt-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="tudo">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container d-flex align-items-center justify-content-between">
+
+                <!-- LOGO à esquerda -->
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../imagens/logowt-removebg-preview.png" alt="Logo" class="logo" style="height: 50px;">
+                </a>
+
+                <!-- Botão do menu no mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- LINKS CENTRALIZADOS -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page"
+                                href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#sobre">Sobre Nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#categoria">Produtos</a></li>
+                        <!--<li class="nav-item"><a class="nav-link" href="#Whatsapp">contato</a></li>-->
+                    </ul>
+                </div>
+                <div class="redes">
+                    <a href="https://www.instagram.com/wt_cosmeticshair/" target="_blank"><img
+                            src="../imagens/instagram.png" alt="Instagram" class="icone"></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+os+produtos+WT+cosmetics+Hair.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                        target="_blank"><img src="../imagens/whatsapp.png" alt="WhatsApp" class="icone"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="produtos">
+            <h2>Nossos Produtos WT Cosmetics Hair</h2>
+
+            <div class="produto-grid">
+                <!-- Produto 1 -->
+                <div class="produto-item">
+                    <img src="../imagens/Nossos produtos/img_botox blond.jpg" alt="Botox Blond">
+                    <h3>Botox Blond</h3>
+                    <!--Botão de comprar pelo whatsApp-->
+                    <div class="whatsapp-button-container">
+                        <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+comprar+o+produto%3A+Botox+Blond.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                            target="_blank" class="whatsapp-button btn btn-success">
+                            COMPRAR PELO WHATSAPP
+                        </a>
+                    </div>
+
+                    <div class="tabs-container">
+                        <!-- botões das abas -->
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="openTab(event, 'descrição')">Descrição</button>
+                            <button class="tab-button" onclick="openTab(event, 'ingredientes')">Ingredientes</button>
+                            <button class="tab-button" onclick="openTab(event, 'modoDeUso')">Modo de uso</button>
+                        </div>
+
+                        <div id="descrição" class="tab-content active">
+
+                            <p>Tratamento Matizador e Repositor de Massa | WT Cosmetic Hair
+                                O BOTOX BLOND da WT Cosmetic Hair é o tratamento definitivo desenvolvido especificamente
+                                para atender às necessidades dos cabelos loiros, descoloridos ou com mechas. Ele combina
+                                a
+                                eficácia da Reposição de Massa, Força e Resistência com a ação matizadora, garantindo um
+                                loiro impecável, livre de tons amarelados indesejados e com total controle de volume e
+                                frizz.
+                            </p>
+                        </div>
+
+                        <div id="ingredientes" class="tab-content">
+
+                            <p>Os ingredientes principais são:
+                            <ul>
+                                <li>
+                                    Manteiga de Cupuaçu: Alto poder de hidratação e emoliência, melhora a elasticidade e
+                                    a
+                                    maciez do fio.
+                                </li>
+                                <li>
+                                    Óleo de Coco: Nutrição profunda que sela e confere brilho intenso.
+                                </li>
+                                <li>
+                                    Segurança e Conforto: Fórmula ZERO FORMOL, garantindo um tratamento seguro para o
+                                    profissional e para a cliente, sem odores fortes ou desconforto.
+                                </li>
+                            </ul>
+                            </p>
+
+                        </div>
+                        <div id="modoDeUso" class="tab-content">
+
+                            <p>Uso Exclusivo Profissional:
+
+                            <ol>
+                                <li>
+                                    <strong>Limpeza:</strong>
+                                    Lave o cabelo com shampoo (pode ser o anti-resíduos ou um neutro). Retire o excesso
+                                    de água com uma toalha. O cabelo deve estar úmido, mas não pingando.
+                                </li>
+                                <li>
+                                    <strong>Aplicação:</strong>
+                                    Divida o cabelo e aplique o Botox Blond em mechas finas, começando pela
+                                    nuca. Distribua bem o produto.
+                                </li>
+                                <li>
+                                    <strong>Pausa e Matização:</strong>
+                                    Deixe o produto agir. O tempo de pausa varia (geralmente de 20 a
+                                    40 minutos) e deve ser monitorado constantemente para garantir a matização ideal e
+                                    evitar que o cabelo chumbe (fique roxo).
+                                </li>
+                                <li>
+                                    <strong>Enxágue e Selagem:</strong>
+                                    Enxágue completamente o produto. Seque 100% o cabelo com o
+                                    secador e finalize pranchando mechas finas (5 a 8 vezes) para selar as cutículas e
+                                    fixar a redução de volume e a cor.
+                                </li>
+                            </ol>
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Fim do Produto 1 -->
+                <!--Início produto 2-->
+                <div class="produto-item">
+                    <img src="../imagens/Nossos produtos/img_botox organic.jpg" alt="Potenza Laranja">
+                    <h3>Botox Organic</h3>
+                    <!--Botão comprar pelo WhatsApp-->
+                    <div class="whatsapp-button-container">
+                        <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+comprar+o+produto%3A+BOTOX+ORGANIC.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                            target="_blank" class="whatsapp-button btn btn-success">
+                            COMPRAR PELO WHATSAPP </a>
+                    </div>
+
+                    <div class="tabs-container">
+                        <!-- botões das abas -->
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="openTab(event, 'descrição2')">Descrição</button>
+                            <button class="tab-button" onclick="openTab(event, 'ingredientes2')">Ingredientes</button>
+                            <button class="tab-button" onclick="openTab(event, 'modoDeUso2')">Modo de uso</button>
+                        </div>
+                        <div id="descrição2" class="tab-content">
+
+                            <p>O BOTOX ORGANIC da W T Cosmetic Hair é a resposta
+                                tecnológica para cabelos que necessitam de tratamento profundo, redução de volume e
+                                alinhamento, com o compromisso de uma fórmula LIVRE DE FORMOL. Este tratamento de BIO
+                                RESTAURAÇÃO age intensivamente para devolver força, resistência e vitalidade aos fios.
+                            </p>
+
+                        </div>
+                        <div id="ingredientes2" class="tab-content">
+
+                            <p>Os ingredientes principais são:
+                            <ul>
+                                <li>
+                                    Sericina: Proteína que sela as cutículas, conferindo brilho e sedosidade.
+                                </li>
+                                <li>
+                                    Queratina: Componente essencial que reconstrói a estrutura interna do fio,
+                                    garantindo
+                                    resistência.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div id="modoDeUso2" class="tab-content">
+
+                            <p>Uso Exclusivo Profissional:
+
+                            <ol>
+                                <li>
+                                    <strong>Limpeza:</strong>
+                                    Lave o cabelo com shampoo (pode ser o anti-resíduos ou um hidratante,
+                                    dependendo da necessidade de abertura da cutícula) e seque de 70% a 80%.
+                                </li>
+                                <li>
+                                    <strong>Aplicação:</strong>
+                                    Divida o cabelo e aplique o Botox Organic (máscara) em mechas finas.
+                                    Penteie para distribuir e remova o excesso.
+                                </li>
+                                <li>
+                                    <strong>Pausa e Enxágue:</strong>
+                                    Deixe o produto agir pelo tempo recomendado (geralmente 30 a 50
+                                    minutos). Enxágue completamente ou parcialmente (consulte a orientação da marca para
+                                    a remoção ideal).
+                                </li>
+                                <li>
+                                    <strong>Finalização Térmica:</strong>
+                                    Seque o cabelo 100% com o secador. Pranche mechas finas 5 a 8
+                                    vezes por mecha para selar os nutrientes e a redução de volume.
+                                </li>
+                            </ol>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim produto 2-->
+
+                <!--Início produto 3-->
+                <div class="produto-item">
+                    <img src="../imagens/Nossos produtos/produtos_escova orgânica_.png"
+                        alt="Potenza Straight Treatment">
+                    <h3>Potenza Straight Treatment</h3>
+                    <!--Botão comprar pelo WhatsApp-->
+                    <div class="whatsapp-button-container">
+                        <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+comprar+o+produto%3A+Potenza+Straight+Treatment.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                            target="_blank" class="whatsapp-button btn btn-success">
+                            COMPRAR PELO WHATSAPP </a>
+                    </div>
+
+                    <div class="tabs-container">
+                        <!-- botões das abas -->
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="openTab(event, 'descrição3')">Descrição</button>
+                            <button class="tab-button" onclick="openTab(event, 'ingredientes3')">Ingredientes</button>
+                            <button class="tab-button" onclick="openTab(event, 'modoDeUso3')">Modo de uso</button>
+                        </div>
+                        <div id="descrição3" class="tab-content">
+
+                            <p>O POTENZA STRAIGHT TREATMENT é a evolução em alisamento e redução de
+                                volume. Desenvolvido pela WT Cosmetic Hair para uso EXCLUSIVO PROFISSIONAL, este
+                                tratamento
+                                oferece um liso saudável e duradouro, combinando a eficácia da redução de volume com a
+                                nutrição de ingredientes orgânicos e tecnológicos.
+                            </p>
+
+                        </div>
+                        <div id="ingredientes3" class="tab-content">
+
+                            <p>Os ingredientes principais são:
+
+                            <ul>
+                                <li>
+                                    A fórmula é baseada em um poderoso blend de aminoácidos que reestrutura as ligações
+                                    da fibra capilar, promovendo o alinhamento dos fios sem formol.
+                                </li>
+                                <li>
+                                    É enriquecida com Coconut Oil (Óleo de Coco), que proporciona nutrição profunda,
+                                    protegendo contra o ressecamento e conferindo brilho e maciez intensos aos cabelos.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div id="modoDeUso3" class="tab-content">
+
+                            <p>Uso Exclusivo Profissional:
+
+                            <ol>
+                                <li>
+                                    <strong>Preparação e Aplicação:</strong>
+                                    Lave o cabelo com shampoo anti-resíduos, seque 100% e
+                                    aplique o Potenza Straight Treatment (Passo 2), respeitando a raiz.
+                                </li>
+                                <li>
+                                    <strong> Pausa e Remoção:</strong>
+                                    Deixe o produto agir (40-60 minutos) e, em seguida, enxágue para
+                                    remover o excesso (parcialmente).
+                                </li>
+                                <li>
+                                    <strong>Ativação Térmica:</strong>
+                                    Seque e escove completamente o cabelo. Pranche mechas finas
+                                    repetidamente para selar e alisar o fio.
+                                </li>
+                                <li>
+                                    <strong>Finalização:</strong>
+                                    Lave o cabelo para remover totalmente o ativo, condicione/hidrate e
+                                    finalize como de costume.
+                                </li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Início produto 4-->
+                <div class="produto-item">
+                    <img src="../imagens/Nossos produtos/img_alfha lizz.jpg" alt="Alpha Lizz">
+                    <h3>Alpha Lizz</h3>
+
+                    <!--Botão comprar pelo WhatsApp-->
+                    <div class="whatsapp-button-container">
+                        <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+comprar+o+produto%3A+Alpha+Lizz.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                            target="_blank" class="whatsapp-button btn btn-success">
+                            COMPRAR PELO WHATSAPP </a>
+                    </div>
+
+                    <div class="tabs-container">
+                        <!-- botões das abas -->
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="openTab(event, 'descrição4')">Descrição</button>
+                            <button class="tab-button" onclick="openTab(event, 'ingredientes4')">Ingredientes</button>
+                            <button class="tab-button" onclick="openTab(event, 'modoDeUso4')">Modo de uso</button>
+                        </div>
+
+                        <div id="descrição4" class="tab-content">
+
+                            <p>O ALPHA LIZZ Strawberry Treatment REDUTOR é o ápice da tecnologia de
+                                alisamento e redução de volume. Desenvolvido para uso EXCLUSIVO PROFISSIONAL, este
+                                poderoso
+                                Passo 2 oferece um tratamento de alinhamento capilar de alta performance, com o
+                                delicioso e
+                                suave aroma de Strawberry (Morango).
+                            </p>
+                        </div>
+
+                        <div id="ingredientes4" class="tab-content">
+                            <p>Os ingredientes principais são:
+                            <ul>
+                                <li>
+                                    Blend Aminoácidos (Lissant System): É o agente principal que alinha e reestrutura a
+                                    fibra capilar, promovendo o efeito liso sem formol.
+                                </li>
+                                <li>
+                                    Coconut Oil (Óleo de Coco): Garante nutrição profunda, sela as cutículas, protege
+                                    contra o ressecamento e adiciona brilho e maciez intensos aos fios.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+
+                        <div id="modoDeUso4" class="tab-content">
+
+                            <p>Uso Exclusivo Profissional:
+
+                            <ol>
+
+                                <li>
+                                    <strong>Preparação:</strong>
+                                    Lave o cabelo com o shampoo preparatório (Passo 1), enxágue bem e seque os fios 100%
+                                    com o secador.
+                                </li>
+                                <li>
+                                    <strong>Aplicação e Pausa:</strong>
+                                    Aplique o Alfha Lizz Redutor (Passo 2) em mechas finas, mantendo 1 cm de distância
+                                    da raiz. Deixe o produto agir pelo tempo recomendado (geralmente entre 40 a 60
+                                    minutos).
+                                </li>
+                                <li>
+                                    <strong>Enxágue e Secagem:</strong>
+                                    Enxágue o cabelo para remover o excesso do produto (o enxágue
+                                    pode ser parcial ou total, dependendo da orientação do fabricante). Em seguida,
+                                    seque e escove os fios 100%.
+                                </li>
+                                <li>
+                                    <strong>Selagem:</strong>
+                                    Pranche o cabelo em mechas muito finas por várias vezes (em geral, 10 a 15 vezes)
+                                    para selar o ativo e garantir o efeito liso, ajustando a temperatura conforme o tipo
+                                    de cabelo.
+                                </li>
+                            </ol>
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Fim produto 4-->
+                <!--Início produto 5-->
+                <div class="produto-item">
+                    <img src="../imagens/Tratamentos profissionais/Trat_Potenza Rosa.png" alt="Potenza Rosa">
+                    <h3>Potenza Rosa Straight</h3>
+                    <!--Botão de comprar pelo whatsApp-->
+                    <div class="whatsapp-button-container">
+                        <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+comprar+o+produto%3A+Potenza+Rosa+Straight+Treatment.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                            target="_blank" class="whatsapp-button btn btn-success">
+                            COMPRAR PELO WHATSAPP
+                        </a>
+                    </div>
+
+                    <div class="tabs-container">
+                        <!-- botões das abas -->
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="openTab(event, 'descrição5')">Descrição</button>
+                            <button class="tab-button" onclick="openTab(event, 'ingredientes5')">Ingredientes</button>
+                            <button class="tab-button" onclick="openTab(event, 'modoDeUso5')">Modo de uso</button>
+                        </div>
+
+                        <div id="descrição5" class="tab-content">
+
+                            <p>Revitalize seus cabelos com o kit Potenza Straight Treatment Reconstrutivo, que traz
+                                uma
+                                linha pensada para devolver vida e força aos fios. A WT Cosmetic Hair criou essa
+                                fórmula
+                                especial, que une o efeito liso desejado com uma reconstrução profunda da fibra
+                                capilar.
+                                É perfeita para quem tem cabelos danificados, quimicamente tratados ou frágeis,
+                                ajudando
+                                a recuperar a saúde e a beleza dos seus fios.
+                            </p>
+
+                        </div>
+
+                        <div id="ingredientes5" class="tab-content">
+
+                            <p>Os ingredientes principais são:
+                            <ul>
+                                <li>
+                                    D'Pantenol (Pró-Vitamina B5): Essencial para promover hidratação profunda,
+                                    retenção
+                                    de umidade e devolver o brilho e a maciez aos fios.
+                                </li>
+                                <li>
+                                    Aminoácidos (como a L-Arginina de Seda): Atuam na reparação estrutural e no
+                                    preenchimento das áreas danificadas do cabelo, garantindo força e resistência.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+
+                        <div id="modoDeUso5" class="tab-content">
+
+                            <p>O tratamento é um processo de quatro etapas:
+
+                            <ol>
+                                <li>
+                                    <strong>Lavar:</strong>
+                                    Lave o cabelo com o Shampoo Reconstrutivo, massageando e enxaguando
+                                    completamente.
+                                </li>
+                                <li>
+                                    <strong>Condicionar:</strong>
+                                    Aplique o Condicionador Reconstrutivo, deixe agir por alguns minutos e
+                                    enxágue bem.
+                                </li>
+                                <li>
+                                    <strong>Tratar (Máscara):</strong>
+                                    Com o cabelo úmido, aplique a Máscara Reconstrutiva mecha a mecha.
+                                    Deixe agir por 10 a 15 minutos.
+                                </li>
+                                <li>
+                                    <strong>Finalizar:</strong>
+                                    Enxágue abundantemente (removendo todo o produto) e seque como preferir.
+                                </li>
+                            </ol>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--Fim produto 5-->
+                <!--Início produto 6-->
+                <div class="produto-item">
+                    <img src="../imagens/Finalizadores e Seruns/Serum_gold.png" alt="Serum_gold">
+                    <h3>Gold Red Mix Serum Oil</h3>
+
+                    <div class="whatsapp-button-container">
+                        <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+comprar+o+produto%3A+Gold+Red+Mix+Sérum+Oil.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                            target="_blank" class="whatsapp-button btn btn-success">
+                            COMPRAR PELO WHATSAPP
+                        </a>
+                    </div>
+
+                    <div class="tabs-container">
+                        <!--Botões das abas-->
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="openTab(event, 'descrição6')">Descrição</button>
+                            <button class="tab-button" onclick="openTab(event, 'ingredientes6')">Ingredientes</button>
+                            <button class="tab-button" onclick="openTab(event, 'modoDeUso6')">Modo de uso</button>
+                        </div>
+
+                        <div id="descrição6" class="tab-content">
+                            <p>O Gold Red Mix Serum Oil é um óleo finalizador concentrado da WT Cosmetic Hair,
+                                desenvolvido
+                                para proporcionar nutrição profunda aos cabelos.
+                            </p>
+                        </div>
+
+                        <div id="ingredientes6" class="tab-content">
+                            <p>
+                                Sua fórmula visa repor os lipídios essenciais do cabelo, promovendo brilho intenso,
+                                maciez e
+                                ajudando a controlar o frizz.
+                            </p>
+                        </div>
+                        <div id="modoDeUso6" class="tab-content">
+                            <p>O Serum Oil pode ser usado de várias maneiras:
+                            <ol>
+                                <li>
+                                    <strong> Finalizador e Anti-Frizz (Mais Comum):</strong>
+                                    Aplique 2 a 4 gotas nas mãos e distribua do comprimento às pontas no cabelo
+                                    úmido ou
+                                    seco. Ideal para selar cutículas e dar brilho.
+                                </li>
+
+                                <li>
+                                    <strong>Como Protetor e Intensificador de Brilho:</strong>
+                                    Aplique 1 a 2 gotas no cabelo seco (evitando a raiz) para proteger contra
+                                    agentes
+                                    externos e intensificar o brilho após a finalização.
+                                </li>
+
+
+                                <li>
+                                    <strong>Nutrição Potencializada:</strong>
+                                    Misture 3 a 5 gotas do óleo na sua máscara de tratamento. Deixe agir por 10 a 30
+                                    minutos, enxágue e finalize normalmente.
+                                </li>
+
+                            </ol>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+   
+
+
+    </section>
+    <script src="produtoscript.js">
+
+        function openTab(event, tabName) {
+            event.preventDefault(); // previne o comportamento padrão (ex: se for um link <a>)
+            event.stopPropagation(); // impede que o evento suba na hierarquia do DOM
+
+            // Esconde todo o conteúdo das abas
+            const tabContents = document.querySelectorAll('.tab-content');
+            console.log(tabContents);
+            tabContents.forEach(tab => tab.classList.remove('active'));
+
+            // Remove a classe 'active' de todos os botões
+            const tabButtons = document.querySelectorAll('.tab-button');
+            console.log(tabButtons);
+            tabButtons.forEach(button => button.classList.remove('active'));
+
+            // Mostra o conteúdo da aba selecionada
+            document.getElementById(tabName).classList.add('active');
+            console.log(document.getElementById(tabName).classList.add('active'));
+
+            // Adiciona a classe 'active' ao botão clicado
+            console.log(event.currentTarget);
+            event.currentTarget.classList.add('active');
+        }
+
+
+
+    </script>
+
+    <footer>
+        <p>&copy; Cosmetics Hair. Direitos Reservados 2025.
+            <br>
+            Criado por: Breno Lima, Jéssica Sandre, Pedro, Guilherme Jácome.
+        </p>
+    </footer>
+
+
+    <!--breno-->
+
+
+    <!--breno-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!--breno-->
+
+</body>
+
+</html>

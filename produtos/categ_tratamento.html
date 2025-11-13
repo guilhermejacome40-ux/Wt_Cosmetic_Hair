@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WT Tratamento Profissional</title>
+    <link rel="stylesheet" href="../produtos/produtos.css">
+    <link rel="shortcut icon" href="../imagens/logowt-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <header class="tudo">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container d-flex align-items-center justify-content-between">
+
+                <!-- LOGO à esquerda -->
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../imagens/logowt-removebg-preview.png" alt="Logo" class="logo" style="height: 50px;">
+                </a>
+
+                <!-- Botão do menu no mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- LINKS CENTRALIZADOS -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page"
+                                href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#sobre">Sobre Nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#categoria">Produtos</a></li>
+                        <!--<li class="nav-item"><a class="nav-link" href="#Whatsapp">contato</a></li>-->
+                    </ul>
+                </div>
+                <div class="redes">
+                    <a href="https://www.instagram.com/wt_cosmeticshair/" target="_blank"><img
+                            src="../imagens/instagram.png" alt="Instagram" class="icone"></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+os+produtos+WT+cosmetics+Hair.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                        target="_blank"><img src="../imagens/whatsapp.png" alt="WhatsApp" class="icone"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="produtos">
+            <h2>Tratamento Profissional WT Cosmetics Hair</h2>
+            <div class="produto-grid">
+                <!-- Produto 1 -->
+                <div class="produto-item">
+                    <img src="../imagens/Tratamentos profissionais/Trat_Potenza Rosa.png" alt="Potenza Rosa">
+                    <h3>Potenza Rosa Straight Treatment</h3>
+                    <!--Botão de comprar pelo whatsApp-->
+                    <div class="whatsapp-button-container">
+                        <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+comprar+o+produto%3A+Potenza+Rosa+Straight+Treatment.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                            target="_blank" class="whatsapp-button btn btn-success">
+                            COMPRAR PELO WHATSAPP
+                        </a>
+                    </div>
+                    <div class="tabs-container">
+                        <!-- botões das abas -->
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="openTab(event, 'descrição')">Descrição</button>
+                            <button class="tab-button" onclick="openTab(event, 'ingredientes')">Ingredientes</button>
+                            <button class="tab-button" onclick="openTab(event, 'modoDeUso')">Modo de uso</button>
+                        </div>
+                        <div id="descrição" class="tab-content active">
+
+                            <p>Revitalize seus cabelos com o kit Potenza Straight Treatment Reconstrutivo, que traz uma
+                                linha pensada para devolver vida e força aos fios. A WT Cosmetic Hair criou essa fórmula
+                                especial, que une o efeito liso desejado com uma reconstrução profunda da fibra capilar.
+                                É perfeita para quem tem cabelos danificados, quimicamente tratados ou frágeis, ajudando
+                                a recuperar a saúde e a beleza dos seus fios.
+                            </p>
+
+                        </div>
+
+                        <div id="ingredientes" class="tab-content">
+
+                            <p>Os ingredientes principais são:
+                            <ul>
+                                <li>
+                                    D'Pantenol (Pró-Vitamina B5): Essencial para promover hidratação profunda, retenção
+                                    de umidade e devolver o brilho e a maciez aos fios.
+                                </li>
+                                <li>
+                                    Aminoácidos (como a L-Arginina de Seda): Atuam na reparação estrutural e no
+                                    preenchimento das áreas danificadas do cabelo, garantindo força e resistência.
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div id="modoDeUso" class="tab-content">
+
+                            <p>O tratamento é um processo de quatro etapas:
+
+                            <ol>
+                                <li>
+                                    <strong>Lavar:</strong>
+                                    Lave o cabelo com o Shampoo Reconstrutivo, massageando e enxaguando
+                                    completamente.
+                                </li>
+                                <li>
+                                    <strong>Condicionar:</strong>
+                                    Aplique o Condicionador Reconstrutivo, deixe agir por alguns minutos e
+                                    enxágue bem.
+                                </li>
+                                <li>
+                                    <strong>Tratar (Máscara):</strong>
+                                    Com o cabelo úmido, aplique a Máscara Reconstrutiva mecha a mecha.
+                                    Deixe agir por 10 a 15 minutos.
+                                </li>
+                                <li>
+                                    <strong>Finalizar:</strong>
+                                    Enxágue abundantemente (removendo todo o produto) e seque como preferir.
+                                </li>
+                            </ol>
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Fim do Produto 1 -->
+                <!--Início produto 2-->
+
+                <div class="produto-item">
+                    <img src="../imagens/Tratamentos profissionais/Trat_Potenza Laranja.png" alt="Potenza Laranja">
+                    <h3>Potenza Laranja Reconstrutivo</h3>
+                    <!--Botão comprar pelo WhatsApp-->
+                    <div class="whatsapp-button-container">
+                        <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+comprar+o+produto%3A+Potenza+Laranja+Reconstrutivo.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                            target="_blank" class="whatsapp-button btn btn-success">
+                            COMPRAR PELO WHATSAPP </a>
+                    </div>
+
+                    <div class="tabs-container">
+                        <!-- botões das abas -->
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="openTab(event, 'descrição2')">Descrição</button>
+                            <button class="tab-button" onclick="openTab(event, 'ingredientes2')">Ingredientes</button>
+                            <button class="tab-button" onclick="openTab(event, 'modoDeUso2')">Modo de uso</button>
+                        </div>
+                        <div id="descrição2" class="tab-content">
+
+                            <p>Revitalize seus cabelos com o kit Potenza Reconstrutivo Laranja, uma linha
+                                especialmente
+                                formulada para restaurar a saúde e a vitalidade dos fios danificados. Desenvolvido
+                                pela
+                                WT Cosmetic Hair, este tratamento profissional combina ingredientes poderosos para
+                                reconstruir a fibra capilar, proporcionando força, brilho e maciez incomparáveis.
+                            </p>
+
+                        </div>
+                        <div id="ingredientes2" class="tab-content">
+
+                            <p>Os ingredientes principais são:
+                            <ul>
+                                <li>
+                                    Queratina Vegetal: Atua na reconstrução intensiva da fibra capilar, repondo a
+                                    proteína perdida e aumentando a densidade dos cabelos.
+                                </li>
+                                <li>
+                                    Proteína do Trigo: Fortalece o cabelo e melhora sua elasticidade, ajudando a evitar
+                                    a quebra e as pontas duplas, além de reter a hidratação no interior do fio.
+                                </li>
+                            </ul>
+
+                            </p>
+                        </div>
+                        <div id="modoDeUso2" class="tab-content">
+
+                            <p>O tratamento é um processo de quatro etapas:
+
+                            <ol>
+                                <li>
+                                    <strong>Limpeza:</strong>
+                                    Lave o cabelo com o Shampoo Reconstrutivo, massageando e enxaguando bem.
+                                </li>
+                                <li>
+                                    <strong>Condicionamento:</strong>
+                                    Aplique o Condicionador Reconstrutivo, deixe agir por alguns
+                                    minutos e enxágue completamente.
+                                </li>
+                                <li>
+                                    <strong>Tratamento Intensivo:</strong>
+                                    Com os cabelos úmidos, aplique a Máscara Reconstrutiva mecha a
+                                    mecha, deixando agir por 10 a 15 minutos.
+                                </li>
+                                <li>
+                                    <strong>Finalização:</strong>
+                                    Enxágue abundantemente (removendo todo o produto) e
+                                    seque o cabelo como
+                                    desejar (naturalmente ou com secador em temperatura média).
+                                </li>
+                            </ol>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Fim produto 2-->
+
+                <!--Início produto 3-->
+
+                <div class="produto-item">
+                    <img src="../imagens/Tratamentos profissionais/Trat_Potenza verde.png" alt="Potenza Verde">
+                    <h3>Potenza Verde Straight Treatment</h3>
+                    <!--Botão comprar pelo WhatsApp-->
+                    <div class="whatsapp-button-container">
+                        <a href="https://api.whatsapp.com/send/?phone=5585987550274&text=Ol%C3%A1%2C+gostaria+de+comprar+o+produto%3A+Potenza+Verde+Tratamento.+Poderia+me+ajudar%3F&type=phone_number&app_absent=0"
+                            target="_blank" class="whatsapp-button btn btn-success">
+                            COMPRAR PELO WHATSAPP </a>
+                    </div>
+
+                    <div class="tabs-container">
+                        <!-- botões das abas -->
+                        <div class="tab-buttons">
+                            <button class="tab-button active" onclick="openTab(event, 'descrição3')">Descrição</button>
+                            <button class="tab-button" onclick="openTab(event, 'ingredientes3')">Ingredientes</button>
+                            <button class="tab-button" onclick="openTab(event, 'modoDeUso3')">Modo de uso</button>
+                        </div>
+                        <div id="descrição3" class="tab-content">
+
+                            <p>Descubra o poder da transformação com a linha Potenza Straight Treatment, o
+                                tratamento de alta performance da WT Cosmetic Hair desenvolvido para quem busca um
+                                Efeito Mais Liso e Prolongado com máxima saúde e brilho. Com uma Fórmula Avançada e um
+                                toque de
+                                frescor, esta linha é a aliada perfeita para a manutenção de cabelos quimicamente
+                                tratados ou para o alinhamento natural dos fios.
+                            </p>
+
+                        </div>
+                        <div id="ingredientes3" class="tab-content">
+
+                            <p>Os ingredientes principais são:
+
+                            <ul>
+                                <li>
+                                    Fórmula Avançada para Efeito Liso Prolongado: A composição contém ativos específicos
+                                    (não detalhados, mas referenciados como "Extrato de Queratina" e "Aminoácidos" na
+                                    embalagem, sob o efeito liso) para otimizar o alinhamento das cutículas, garantir a
+                                    disciplina dos fios e reduzir o frizz.
+                                </li>
+                                <li>
+                                    Seda + Brilho Gloss: Os ingredientes visam intensificar o brilho espelhado e
+                                    proporcionar um toque extremamente sedoso, essenciais para o acabamento de um cabelo
+                                    liso.
+                                </li>
+                            </ul>
+
+                            </p>
+                        </div>
+                        <div id="modoDeUso3" class="tab-content">
+
+                            <p>O tratamento é um processo de quatro etapas:
+
+                            <ol>
+                                <li>
+                                    <strong>Lavar:</strong>
+                                    Utilize o Shampoo Reconstrutivo, massageando suavemente o couro cabeludo e os
+                                    fios, seguido de enxágue completo.
+                                </li>
+                                <li>
+                                    <strong>Condicionar:</strong>
+                                    Aplique o Condicionador Reconstrutivo, distribua nos fios, deixe agir
+                                    por alguns minutos e enxágue bem.
+                                </li>
+                                <li>
+                                    <strong>Tratar:</strong>
+                                    Com os cabelos úmidos, aplique a Máscara Reconstrutiva mecha a mecha,
+                                    garantindo a cobertura total, e deixe agir por 10 a 15 minutos.
+                                </li>
+                                <li>
+                                    <strong>Finalizar:</strong>
+                                    Enxágue abundantemente para remover todo o produto e seque o cabelo como
+                                    preferir (naturalmente ou com secador).
+                                </li>
+                            </ol>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim produto 3-->
+
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Cosmetics Hair. Direitos Reservados 2025.
+            <br>
+            Criado por: Breno Lima, Jéssica Sandre, Pedro, Guilherme Jácome.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+
+    <script src="produtoscript.js">
+
+        function openTab(event, tabName) {
+            event.preventDefault(); // previne o comportamento padrão (ex: se for um link <a>)
+            event.stopPropagation(); // impede que o evento suba na hierarquia do DOM
+
+            // Esconde todo o conteúdo das abas
+            const tabContents = document.querySelectorAll('.tab-content');
+            console.log(tabContents);
+            tabContents.forEach(tab => tab.classList.remove('active'));
+
+            // Remove a classe 'active' de todos os botões
+            const tabButtons = document.querySelectorAll('.tab-button');
+            console.log(tabButtons);
+            tabButtons.forEach(button => button.classList.remove('active'));
+
+            // Mostra o conteúdo da aba selecionada
+            document.getElementById(tabName).classList.add('active');
+            console.log(document.getElementById(tabName).classList.add('active'));
+
+            // Adiciona a classe 'active' ao botão clicado
+            console.log(event.currentTarget);
+            event.currentTarget.classList.add('active');
+        }
+
+
+    </script>
+    <!--breno-->
+
+    <!--breno-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    -->
+
+</body>
+
+</html>
